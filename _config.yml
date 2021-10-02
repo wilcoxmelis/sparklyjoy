@@ -1,0 +1,56 @@
+title: ""
+# author: Melissa Wilcox
+# email: wilcoxmelis@gmail.com
+description: Joy that is sparkly!
+
+# social links
+# twitter_username: jekyll
+# github_username: jekyll
+# rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: meliswilcox
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+# google_analytics: jekyll
+
+# disqus:
+#   shortname: jekyll
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+# header_pages:
+# - build.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include:
+  - /public/
+
+collections:
+  vanbuild:
+    output: true
+  poetry:
+    output: true
